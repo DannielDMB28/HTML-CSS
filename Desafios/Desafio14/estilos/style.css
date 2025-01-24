@@ -1,14 +1,46 @@
 @charset "UTF-8";
 
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: rgba(0, 0, 0, 0.904);
+  background-color: rgba(0, 0, 0, 0.904);
 }
 
 header {
-    background-color: white;
-    h
-    min-height: 150px;
-    padding: 50px;
-    
+   color: white;
+   text-align: center;
+   min-height: 150px;
+   padding: 20px;
+   background-image: url('../imagens/banner\ \(1\).png');
+   background-position: center center;
+   background-size: cover;
 }
+
+header > h1 {
+    color: orange;
+    font-size: 3em;
+    padding: 40px;
+}
+
+header > h2 {
+    font-size: 2em;
+}
+
+header > h2 > strong {
+    color: orange;
+   
+}
+
+div > h2 {
+    color: orange;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+
