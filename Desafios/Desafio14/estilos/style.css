@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 *{
     margin: 0px;
@@ -7,39 +11,55 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color: #121212;
 }
 
 header {
+   font-family: "Bebas Neue", serif;
    color: white;
-   text-align: center;
    min-height: 150px;
-   padding: 20px;
+   padding: 60px;
    background-image: url('../imagens/banner\ \(1\).png');
    background-position: center center;
    background-size: cover;
 }
 
 header > h1 {
-    color: orange;
-    font-size: 3em;
-    padding: 40px;
+    color: #f5a623;
+    font-size: 2.5em;
+    
 }
 
 header > h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 header > h2 > strong {
-    color: orange;
+    color: #f5a623;
    
 }
 
 div > h2 {
-    color: orange;
+    font-family: "Bebas Neue", serif;
+    color: #f5a623;
     text-align: center;
     margin: 20px;
 
+}
+
+main  > div > h3.cor {
+    color: #f5a623;
+}
+
+div > h3 {
+    font-family: "Bebas Neue", serif;
+    color: #ffffff;
+}
+
+div > p {
+    font-family: "Open Sans", serif;
+    color: #bdbdbd;
+    
 }
 
 
