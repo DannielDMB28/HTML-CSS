@@ -52,7 +52,7 @@ div > h2 {
 
 }
 
-main  > div > h3.cor {
+main > div > h3.cor {
     color: #f5a623;
     margin-left: 20px;
 }
@@ -65,11 +65,15 @@ main > div.itens {
 }
 
 div > h3 {
+    text-align: center;
+    margin-bottom: 20px;
     font-family: "Bebas Neue", serif;
     color: #ffffff;
 }
 
 div > p {
+    font-size: 0.7em;
+    padding: 40px;
     font-family: "Open Sans", serif;
     color: #bdbdbd;
     
